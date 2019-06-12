@@ -1,0 +1,11 @@
+{
+  "name": "fe-deep-dive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cz": "npx git-cz"
+  },
+  "repository": "https://itshizhan@github.com/itshizhan/fe-deep-dive.git",
+  "author": "itshizhan <itshizhan@163.com>",
+  "license": "MIT"
+}
