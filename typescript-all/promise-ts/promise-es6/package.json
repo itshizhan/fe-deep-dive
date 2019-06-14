@@ -1,0 +1,9 @@
+{
+  "name": "promise-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"parcel ./v1/index.html"
+  },
+  "license": "MIT"
+}

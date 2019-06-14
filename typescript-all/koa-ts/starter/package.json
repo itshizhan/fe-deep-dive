@@ -1,0 +1,19 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}
