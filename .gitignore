@@ -66,3 +66,4 @@ typings/
 #parcel
 dist
 .cache
+*.rdb
