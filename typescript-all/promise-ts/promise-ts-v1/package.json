@@ -1,0 +1,14 @@
+{
+  "name": "promise-ts",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "dev": "npx parcel src/index.html"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^3.5.2"
+  }
+}
