@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-console-enhanced",
+  "version": "0.0.3",
+  "description": "Babel plugin helps enhance the content of console expression",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && npx babel src --out-dir lib",
+    "deploy": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcuking/babel-plugin-console-enhanced.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "console"
+  ],
+  "author": "mcuking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcuking/babel-plugin-console-enhanced/issues"
+  },
+  "homepage": "https://github.com/mcuking/babel-plugin-console-enhanced#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0"
+  }
+}
