@@ -15,6 +15,7 @@ module.exports = {
     path:path.resolve(__dirname,'dist')
   },
   devServer: {
+    //-content-base   A directory or URL to serve HTML content from.
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     hot:true,

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev:old": "webpack --watch",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server --open"
   },
   "license": "MIT",
   "devDependencies": {
